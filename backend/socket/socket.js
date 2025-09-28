@@ -7,7 +7,7 @@ let app = express()
 const server=http.createServer(app)
 const io=new Server(server,{
     cors:{
-        origin:"https://chat-application-2-jwpe.onrender.com"
+        origin:"https://chat-application-11-g8c6.onrender.com"
     }
 })
  const userSocketMap ={}
